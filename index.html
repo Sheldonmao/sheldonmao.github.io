@@ -48,11 +48,12 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-					<!-- bgcolor="#ffffd0" -->
+					
+          <!-- 2021 TPAMI gigamvs bgcolor="#ffffd0" -->
           <tr onmouseout="gigamvs_stop()" onmouseover="gigamvs_start()" >
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='gigamvs_image'><video  width="160" height="160" muted autoplay loop>
+                <div class="two" id='gigamvs_video'><video  width="160" height="160" muted autoplay loop>
                   <source src='images/gigamvs_video.mp4' type="video/mp4">
                   Your browser does not support the video tag.
                 </video></div>
@@ -60,11 +61,11 @@
               </div>
               <script type="text/javascript">
                 function gigamvs_start() {
-                  document.getElementById('gigamvs_image').style.opacity = "1";
+                  document.getElementById('gigamvs_video').style.opacity = "1";
                 }
 
                 function gigamvs_stop() {
-                  document.getElementById('gigamvs_image').style.opacity = "0";
+                  document.getElementById('gigamvs_video').style.opacity = "0";
                 }
                 gigamvs_stop()
               </script>
@@ -84,19 +85,20 @@
             </td>
           </tr>
 
+          <!-- 2022 JSTSP material paper -->
           <tr onmouseout="material_stop()" onmouseover="material_start()" >
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='material_image'><img src='images/material_rgb.png' width="160"></div>
+                <div class="two" id='material_rgb'><img src='images/material_rgb.png' width="160"></div>
                 <img src='images/material_ir.png' width="160">
               </div>
               <script type="text/javascript">
                 function material_start() {
-                  document.getElementById('material_image').style.opacity = "1";
+                  document.getElementById('material_rgb').style.opacity = "1";
                 }
 
                 function material_stop() {
-                  document.getElementById('material_image').style.opacity = "0";
+                  document.getElementById('material_rgb').style.opacity = "0";
                 }
                 material_stop()
               </script>
@@ -110,6 +112,39 @@
               <br>
               <p></p>
               <p>Material's subsurface scattering feature can be probed by dot-pattern illumination emitted by the structured ligh camera. By fusing with reflection and texture features, the material recognition power is enhanced.</p>
+            </td>
+          </tr>
+          
+          <!-- 2018 robio paper -->
+          <tr onmouseout="robio_stop()" onmouseover="robio_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='robio_video'><video  width="160" height="160" muted autoplay loop>
+                  <source src='images/robio_video.mp4' type="video/mp4">
+                  Your browser does not support the video tag.
+                </video></div>
+                <img src='images/robio_img.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function robio_start() {
+                  document.getElementById('robio_video').style.opacity = "1";
+                }
+
+                function robio_stop() {
+                  document.getElementById('robio_video').style.opacity = "0";
+                }
+                robio_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>CNN and PCA based visual system of a wheelchair manipulator robot for automatic drinking</papertitle>
+              <br>
+              Z. Zhang, <strong>S. Mao</strong>, K. Chen, L. Xiao, B. Liao, C. Li, P. Zhang 
+              <br>
+              <em>IEEE International Conference on Robotics and Biomimetics (ROBIO)</em>, 2018
+              <br>
+              <p></p>
+              <p>Recognize and localize the cup for grasping by computer vision, after decoding the patient's intention by EEG.</p>
             </td>
           </tr>
 
@@ -173,7 +208,7 @@
               <br>
               Exchange Program, University of California, Berkely (UCB)
               <br>
-              3 A & 1 B+ for all major courses
+              Coursework: Introduction to Artificial Intelligence (CS 188, A), High-Dimensional Data Analysis with Low-Dimensional Models (EE290T, B+), Probability for Data Science (Prob 140, A+), Special Topics on Deep Learning (CS294-131, A) 
             </td>
           </tr>
 
@@ -183,10 +218,10 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
-            <td style="padding:0px">
+            <td style="padding:0px;width:100%">
               <br>
               <p style="text-align:right;font-size:small;">
-                <a href="https://github.com/jonbarron/jonbarron_website">gratefully build my websit from barron's templet</a>
+                <a href="https://github.com/jonbarron/jonbarron_website">this page is base on barron's templet</a>
                 </p>
             </td>
           </tr>
