@@ -49,6 +49,38 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 					
+          <!-- 2022 JSTSP material paper -->
+          <tr onmouseout="material_stop()" onmouseover="material_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='material_rgb'><img src='images/material_rgb.png' width="160"></div>
+                <img src='images/material_ir.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function material_start() {
+                  document.getElementById('material_rgb').style.opacity = "1";
+                }
+
+                function material_stop() {
+                  document.getElementById('material_rgb').style.opacity = "0";
+                }
+                material_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Surface Material Perception Through Multimodal Learning</papertitle>
+              </a>
+              <br>
+              <strong>S. Mao</strong>, M. Ji, B. Wang, Q. Dai, and L. Fang
+              <br>
+              <em>IEEE Journal of Selected Topics in Signal Processing (JSTSP)</em>, 2022 Accepted 
+              <br>
+              <p></p>
+              <p>Material's subsurface scattering feature can be probed by dot-pattern illumination emitted by the structured ligh camera. By fusing with reflection and texture features, the material recognition power is enhanced.</p>
+            </td>
+          </tr>
+          
           <!-- 2021 TPAMI gigamvs bgcolor="#ffffd0" -->
           <tr onmouseout="gigamvs_stop()" onmouseover="gigamvs_start()" >
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -85,37 +117,7 @@
             </td>
           </tr>
 
-          <!-- 2022 JSTSP material paper -->
-          <tr onmouseout="material_stop()" onmouseover="material_start()" >
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='material_rgb'><img src='images/material_rgb.png' width="160"></div>
-                <img src='images/material_ir.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function material_start() {
-                  document.getElementById('material_rgb').style.opacity = "1";
-                }
-
-                function material_stop() {
-                  document.getElementById('material_rgb').style.opacity = "0";
-                }
-                material_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="">
-                <papertitle>Surface Material Perception Through Multimodal Learning</papertitle>
-              </a>
-              <br>
-              <strong>S. Mao</strong>, M. Ji, B. Wang, Q. Dai, and L. Fang
-              <br>
-              <em>IEEE Journal of Selected Topics in Signal Processing (JSTSP)</em>, under review
-              <br>
-              <p></p>
-              <p>Material's subsurface scattering feature can be probed by dot-pattern illumination emitted by the structured ligh camera. By fusing with reflection and texture features, the material recognition power is enhanced.</p>
-            </td>
-          </tr>
+          
           
           <!-- 2018 robio paper -->
           <tr onmouseout="robio_stop()" onmouseover="robio_start()" >
