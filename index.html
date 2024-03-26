@@ -56,21 +56,23 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 					
           <!-- 2023 NeuSPIR  -->
-          <tr onmouseout="material_stop()" onmouseover="material_start()" >
+          <tr onmouseout="neuspir_stop()" onmouseover="neuspir_start()" >
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='material_rgb'><img src='images/NeuSPIR_relight.mp4' width="160"></div>
+                <div class="two" id='NeuSPIR_relight'><video  width="160" height="160" muted autoplay loop>
+                  <source src='images/NeuSPIR_relight.mp4' type="video/mp4">
+                  Your browser does not support the video tag.
+                </video></div>
                 <img src='images/NeuSPIR_decompose.png' width="160">
               </div>
               <script type="text/javascript">
-                function material_start() {
-                  document.getElementById('material_rgb').style.opacity = "1";
+                function neuspir_start() {
+                  document.getElementById('NeuSPIR_relight').style.opacity = "1";
                 }
-
-                function material_stop() {
-                  document.getElementById('material_rgb').style.opacity = "0";
+                function neuspir_stop() {
+                  document.getElementById('NeuSPIR_relight').style.opacity = "0";
                 }
-                material_stop()
+                neuspir_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
