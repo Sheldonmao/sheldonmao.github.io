@@ -1,6 +1,8 @@
-Shi Mao is currently a MPhil Student in Tsinghua-Berkely Shenzhen Institute. 
+Shi Mao is currently a Ph.D. in Computer Science at the Visual Computing Center at King Abdullah University of Science and Technology (KAUST). 
+He works under the guidance of Prof. Wolfgang Heidrich as a member of the Computational Imaging Group.
+
 In Sep. 2015 He he joined Automation department, South China University of Technology (SCUT) 
 as an undergraduate student major in Intelligence Science and Technology. He got his bachelor degree 4 years later.
 
 In Sep. 2019 he joined TBSI, Tsinghua University, as a MPhil candidate major in Data Science and Information Technology. 
-He is expected to get his master degree in July, 2021.
+He got his master degree in July, 2021.
